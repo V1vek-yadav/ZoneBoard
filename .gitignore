@@ -1,0 +1,18 @@
+# Secrets: the Kotak key lives only in .env on your machine
+.env
+.env.*
+!.env.example
+
+# Local market data, snapshots and caches
+data/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
